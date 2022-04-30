@@ -3,7 +3,7 @@ using namespace std;
  
 struct Node {
     int key;
-    Node* left, *right;
+    Node* left, right;
 };
 
 int sumBT(Node* root)
